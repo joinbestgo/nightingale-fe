@@ -55,6 +55,7 @@ const zh_HK = {
     expand: '展開',
     collapse: '收起',
     copy: '複製',
+    copy2: '複製',
   },
   table: {
     name: '名稱',
@@ -95,6 +96,7 @@ const zh_HK = {
       op_not_in: '不包含',
       preview: '數據源預覽',
     },
+    managePageLink: '数据源管理',
   },
   confirm: {
     delete: '確認刪除嗎？',
@@ -122,6 +124,7 @@ const zh_HK = {
     second: '秒',
     minute: '分鐘',
     hour: '小時',
+    day: '天',
     weekdays: ['週日', '週一', '週二', '週三', '週四', '週五', '週六'],
   },
   severity: {
@@ -134,8 +137,15 @@ const zh_HK = {
     export: {
       copy: '複製 JSON 到剪貼板',
     },
+    not_select: '請先選擇數據',
   },
   invalidDatasource: '無效的數據源',
+  copyToClipboard: '複製到剪貼板',
+  copyToClipboardFailed: '複製到剪貼板失敗',
+  manage: '管理',
+  reload: '刷新',
+  public: '公開',
+  private: '私有',
 
   tpl: '自愈腳本',
   'tpl.create': '創建',
